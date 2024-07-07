@@ -465,7 +465,14 @@ h1#dres , h1#riv , h1#bseller , h1#hijab , h1#order{
     }
 }
 
-@media screen and(max-width:768px){
+@media screen and (max-width: 800px){
+    .hm h2{
+        font-size: 1rem;
+        margin-right: 1rem;
+    }
+}
+
+@media screen and (max-width:768px){
     header .hero h1{
         font-size: 26px;
     }
@@ -493,11 +500,11 @@ h1#dres , h1#riv , h1#bseller , h1#hijab , h1#order{
 
 @media screen and (max-width:740px){
     #gallery{
-        height: 550vh;
+        height: 410vh;
     }
 }
 
-@media screen and(max-width:575px){
+@media screen and (max-width:575px){
     .about .box-about .box:nth-child(1) h1{
         font-size: 32px;
     }
@@ -573,12 +580,16 @@ h1#dres , h1#riv , h1#bseller , h1#hijab , h1#order{
     .famous .box-famous .box p{
         font-size: 12px;
     }
-}
 
-@media screen and (max-width: 800px){
-    .hm h2{
-        font-size: 1rem;
-        margin-right: 1rem;
+    #gallery{
+        height: 550vh;
     }
 }
+
+@media screen and (max-width: 390px){
+    #gallery{
+        height: 450vh;
+    }
+}
+
 /* media query end */
